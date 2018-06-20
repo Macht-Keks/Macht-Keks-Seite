@@ -1,3 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("Bilder/Hintergrund Bild Seite.png");
+  background-position: center;
+  background-position: top; 
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*-----------------------------------------------------*/
+/*--Banner--*/
+/*-----------------------------------------------------*/
+
+#ud_banner {
+	padding: 0;
+	margin: -25px auto;;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+#ud_banner img {
+  width: 100%;
+  height: -25px;
+  display: block; }
+
+	
+	

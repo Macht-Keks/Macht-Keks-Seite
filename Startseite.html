@@ -1,15 +1,111 @@
 <!doctype html>
 <html>
+	
+<!--###################################################################-->
+<!--HEADER-->
+<!--###################################################################-->	
+	
 <head>
-<meta charset="UTF-8">
-<title>Index</title>
-<style type="text/css">
-@import url(Style/haupt-index-css.css");
-</style>
-<link href="Style/DropDownMenu.css" rel="stylesheet" type="text/css">
-<link href="Style/Butten-balken-Animation.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+		<meta http-equiv="refresh" content="10">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="robots" content="indox,follow">
+		<meta name="revisit-after" content="20 days">
+		<meta name="author" content="Daniel Bachmann">
+		<meta name="publisher" content="Daniel Bachmann">
+		<meta name="Description" content="Herzlich willkommen auf unserer Updat seite des Kanals Macht_Keks. Schaut doch mal rein.">
+	
+		<title>Macht_Keks</title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="Style/haupt-index-css.css" type="text/css" rel="stylesheet">
+		<link href="Style/DropDownMenu.css" type="text/css" rel="stylesheet">
+		<link href="Style/Butten-balken-Animation.css" type="text/css" rel="stylesheet">
 </head>
+	
+<!--###################################################################-->
+<!--SCHROLL ANIMTION/MENU-->
+<!--###################################################################-->	
+	
+	<script src="Style/js/jquery.js"></script>
+	<script src="Style/js/scroll.js"></script>
+	<script src="Style/js/menu.js"></script>
 
+<!--###################################################################-->
+<!--HEADER-->
+<!--###################################################################-->	
 <body>
+	<header>	
+		
+		<!--Banner-->
+		<div id="ud_banner"><a href="Startseite.html"><img src="Style/Bilder/baner.png" alt=""></a></div>
+		
+		<!--Nav-->
+			<nav>
+				<ul class="normal">
+					<li><a href="#Startseite">Startseite</a></li>
+					<li>Macht_Keks
+						<ul>
+							<li><a href="">Über Mich</a></li>
+							<li><a href="#Kanaele">Kanäle</a></li>
+						</ul>
+					</li>
+					<li><a href="">Twitch</a></li>
+					<li>YouTube
+						<ul>
+							<li><a href="">Vidios</a></li>
+							<li><a href="">Uploud Plan</a></li>
+							<li><a href="">YouTube</a></li>
+						</ul>
+					</li>
+					<li><a href="#News">News</a></li>
+					<li><a href="#Kanaele">Kanäle</a></li>
+					<li><a href="">Vidios</a></li>
+				</ul>
+			</nav>
+
+		</header>
+	
+<!--###################################################################-->
+<!--STARTSEITE-->
+<!--###################################################################-->	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--###################################################################-->
+<!--SCRIPT BUTTEN ANIMATION X-->
+<!--###################################################################-->	
+<script>
+
+    var UD_MENU_OPEN = false;
+
+$(".ud_menu_icon")
+    .stop()
+    .click(function() {
+        if (UD_MENU_OPEN === false) {
+            UD_MENU_OPEN = true;
+            $(".ud_menu_icon").addClass("is-active");
+        } else {
+            UD_MENU_OPEN = false;
+            $(".ud_menu_icon").removeClass("is-active");
+        }
+    });
+
+</script>
 </body>
 </html>
